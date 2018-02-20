@@ -19,7 +19,10 @@ function encode()
 	  cypher_text.push(letter);
 	}
 }
+
   console.log(cypher_text.join(""));
  document.getElementById("output_area").innerHTML = cypher_text.join("");
  }
   
+  
+ 
